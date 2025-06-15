@@ -12,7 +12,7 @@ import kotlinx.serialization.json.Json
 object SupabaseApi {
 
     private const val SUPABASE_URL = "https://encglewfzpvfboxsprqs.supabase.co"
-    private const val SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVuY2dsZXdmenB2ZmJveHNwcnFzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDMwMTY3OTMsImV4cCI6MjA1ODU5Mjc5M30.uhe1-RapGmqaNQnNYc5qM8AGaKaKDBvt_ZzMTmUK0Qs"
+    private const val SUPABASE_KEY = "Supabase_KEY"
 
     private val client = HttpClient(OkHttp) {
         install(ContentNegotiation) {
